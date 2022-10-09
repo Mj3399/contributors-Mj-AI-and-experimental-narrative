@@ -1,0 +1,1 @@
+So this project has alot of files required to run and github was being fussy about amouunt of times and file sizes so currently in Library "Artifacts" and everything inside "PackageCache" are zipfiles that need to be unzipped in order to run the scene file to play with the SATToy.
