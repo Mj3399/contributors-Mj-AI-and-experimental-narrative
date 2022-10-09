@@ -1,0 +1,85 @@
+# This tells step that pressing Alt-T/Option-T should run [Tweets]
+HotKey t "Print some tweets" [Tweets].
+
+# Print 6 tweets
+[main]
+Tweets: [Tweet] [Tweet] [Tweet] [Tweet] [Tweet] [Tweet]
+
+# Tweet
+# Print a tweet for a randomly selected plot point.
+Tweet: <b>Monster Highlights</b> [NewLine] @MonsterHighlights [NewLine] [ClearContext] [Event] [Paragraph]
+
+# Event
+# Generate a random plot point and print it.
+Event: [PlotPoint ?event] [PrintPlotPoint ?event]
+
+###
+### What you need to write
+###
+
+[randomly]
+predicate PlotPoint ?event.
+# ?event is a possible plot point in a Monster High episode given
+# the characters and their relationships.  Fill in methods for this,
+# below.
+
+[randomly]
+task PrintPlotPoint ?event.
+# Generate text to describe the specified plot point. Fill in methods
+# for this, below.
+
+
+###
+### Place your code below
+###
+PlotPoint [hot_character ?who ?monsterType]: [IsA ?who ?monsterType]
+
+PrintPlotPoint [hot_character ?who ?monsterType]: ?who is so hot!! I LOVE ?monsterType people so much!
+
+PlotPoint [confess_love ?a ?b]: [CrushOn ?a ?b][Not [Dating ?a ?b]]
+
+PrintPlotPoint [confess_love ?a ?b]: OMG i cant believe ?a confessed their love to ?b !!!
+
+PlotPoint [smoldering_look ?a ?b ?club]: [CrushOn ?a ?b][CrushOn ?b ?a][InClub ?a ?club] [InClub ?b ?club] [Not [= ?a ?b]]
+
+PrintPlotPoint [smoldering_look ?a ?b ?club]: ?a WAS TOTALLY JUST GIVING ?b A L O O K  @ ?club
+
+PlotPoint [got_together ?a ?b]: [CrushOn ?a ?b][CrushOn ?b ?a][Not [Dating ?a ?b]]
+
+PrintPlotPoint [got_together ?a ?b]: o. m. g. ?a and ?b just got together i CAN NOT BELIEVE THIS!!!!!!!!!!
+
+PlotPoint [breakup ?a ?b]: [Dating ?a ?b]
+
+PrintPlotPoint [breakup ?a ?b]: guys ur never gonna believe this, ?a&?b just broke up WTF
+
+PlotPoint [rejected ?a ?b]: [UnrequitedLove ?b ?a]
+
+PrintPlotPoint [rejected ?a ?b]: i cant believe ?b got totally REJECTED by ?a LOL 
+
+PlotPoint [conflict ?attacker ?defender [triangle ?attacker ?defender ?loveInterest]]: [LoveTriangle ?attacker ?defender ?loveInterest]
+
+PrintPlotPoint [conflict ?a ?d [triangle ?a ?d ?li]]: girl you are never gonna believe this, ?a and ?d are TOTALLY fighting for ?li's affections and ?li dont even know it.
+
+PlotPoint [conflict ?cheatee ?cheater [cheating ?cheater ?cheatee ?other]]: [CheatingOnWith ?cheater ?cheatee ?other]
+
+PrintPlotPoint [conflict ?cheatee ?cheater [cheating ?cheater ?cheatee ?other]]: ?cheatee is totally about to go off on ?cheater for cheating on them with ?other
+
+PlotPoint [conflict ?cheatee ?other [cheating ?cheater ?cheatee ?other]]: [CheatingOnWith ?cheater ?cheatee ?other]
+
+PrintPlotPoint [conflict ?cheatee ?other [cheating ?cheater ?cheatee ?other]]: ?cheatee is totally about to go after ?other for stealing away their boo, ?cheater
+
+PlotPoint [cheating ?a ?b]: [CheatingOn ?a ?b]
+
+PrintPlotPoint [cheating ?a ?b]: bro i cant believe ?a is cheating on ?b
+
+PlotPoint [star_crossed_lovers ?a ?atype ?b ?btype]: [Dating ?a ?b] [RivalMonsterTypes [IsA ?a ?atype] [IsA ?b ?btype]]
+
+PrintPlotPoint [star_crossed_lovers ?a ?atype ?b ?btype]: its so tragic that ?a and ?b are dating :sob::sob::sob: their families will never approve of a ?atype and ?btype dating :sob::sob::sob::sob:
+
+PlotPoint [killed ?a ?b]:[CheatingOn ?b ?a]
+
+PrintPlotPoint [killed ?a ?b]: HOLY SHIT ?a JUST KILLED ?b FOR CHEATING ON THEM WTF
+
+PlotPoint [fullmoon ?who]: [IsA ?who werewolf]
+
+PrintPlotPoint[fullmoon ?who]: wow the full moon is so pretty tonight, on a completely unrelated note has anyone seen ?who recently?

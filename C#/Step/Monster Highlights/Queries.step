@@ -1,0 +1,53 @@
+[main]
+predicate UnrequitedLove ?crusher ?crushee.
+# Crusher has an unrequired crush on crushee.
+UnrequitedLove ?a ?b: [CrushOn ?a ?b] [Not [CrushOn ?b ?a]]
+
+# MutualAttraction ?a ?b
+# True if ?a and ?b have crushes on each other
+[predicate]
+MutualAttraction ?a ?b: [CrushOn ?a ?b] [CrushOn ?b ?a]
+
+predicate Student ?who.
+# True if ?who is a student.
+# Write a rule to define Student in terms of IsA
+Student ?who: [IsA ?who ?]
+
+[main]
+predicate SameClub ?a ?b.
+# A and B are in the same club.
+# Write a rule for SameClub here
+SameClub ?a ?b: [InClub ?a ?c] [InClub ?b ?c] [Not [= ?a ?b]]
+
+[main]
+predicate LoveTriangle ?a ?b ?c.
+# A and B both have crushes on C
+# Write a rule here
+LoveTriangle ?rival1 ?rival2 ?sharedLoveInterest: [CrushOn ?rival1 ?sharedLoveInterest] [CrushOn ?rival2 ?sharedLoveInterest] [Not [= ?rival1 ?rival2]]
+
+[main]
+predicate LovelessRelationship ?a ?b.
+# A and B are dating but not actually into each other
+# Write a rule here
+LovelessRelationship ?a ?b: [Dating ?a ?b] [Not [CrushOn ?a ?b]] [Not [CrushOn ?b ?a]]
+
+[main]
+predicate CheatingOn ?cheater ?cheatee.
+# Cheater and cheatee are dating, but cheater is also dating someone else
+# Write a rule here
+CheatingOn ?a ?b: [Dating ?a ?b] [Dating ?a ?c] [Not [= ?b ?c]]
+
+[main]
+predicate CheatingOnWith ?cheater ?cheatee ?other.
+# Cheater and cheatee are dating, but cheater is also dating other
+# Write a rule here
+CheatingOnWith ?a ?b ?c: [Dating ?a ?b] [Dating ?a ?c] [Not [= ?b ?c]]
+
+[main]
+predicate PossibleRomance ?a ?b.
+# A and B are into each other and in the same club, but not presently dating
+# Write a rule here
+PossibleRomance ?a ?b: [MutualAttraction ?a ?b] [Not [Dating ?a ?b]] [OpportunityToMeet ?a ?b]
+
+[predicate]
+OpportunityToMeet ?a ?b: [SameClub ?a ?b]
