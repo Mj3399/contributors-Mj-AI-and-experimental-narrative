@@ -1,0 +1,36 @@
+C:\Users\ianho\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\Parser\Parser\Parser\obj\Debug\net5.0\Parser.csproj.AssemblyReference.cache
+C:\Users\ianho\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\Parser\Parser\Parser\obj\Debug\net5.0\Parser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ianho\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\Parser\Parser\Parser\obj\Debug\net5.0\Parser.AssemblyInfoInputs.cache
+C:\Users\ianho\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\Parser\Parser\Parser\obj\Debug\net5.0\Parser.AssemblyInfo.cs
+C:\Users\ianho\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\Parser\Parser\Parser\obj\Debug\net5.0\Parser.csproj.CoreCompileInputs.cache
+C:\Users\ianho\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\Parser\Parser\Parser\bin\Debug\net5.0\Parser.deps.json
+C:\Users\ianho\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\Parser\Parser\Parser\bin\Debug\net5.0\Parser.dll
+C:\Users\ianho\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\Parser\Parser\Parser\bin\Debug\net5.0\ref\Parser.dll
+C:\Users\ianho\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\Parser\Parser\Parser\bin\Debug\net5.0\Parser.pdb
+C:\Users\ianho\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\Parser\Parser\Parser\obj\Debug\net5.0\Parser.dll
+C:\Users\ianho\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\Parser\Parser\Parser\obj\Debug\net5.0\ref\Parser.dll
+C:\Users\ianho\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\Parser\Parser\Parser\obj\Debug\net5.0\Parser.pdb
+C:\Users\ian\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\Parser\Parser\Parser\bin\Debug\net5.0\Parser.deps.json
+C:\Users\ian\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\Parser\Parser\Parser\bin\Debug\net5.0\Parser.dll
+C:\Users\ian\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\Parser\Parser\Parser\bin\Debug\net5.0\ref\Parser.dll
+C:\Users\ian\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\Parser\Parser\Parser\bin\Debug\net5.0\Parser.pdb
+C:\Users\ian\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\Parser\Parser\Parser\obj\Debug\net5.0\Parser.csprojAssemblyReference.cache
+C:\Users\ian\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\Parser\Parser\Parser\obj\Debug\net5.0\Parser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ian\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\Parser\Parser\Parser\obj\Debug\net5.0\Parser.AssemblyInfoInputs.cache
+C:\Users\ian\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\Parser\Parser\Parser\obj\Debug\net5.0\Parser.AssemblyInfo.cs
+C:\Users\ian\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\Parser\Parser\Parser\obj\Debug\net5.0\Parser.csproj.CoreCompileInputs.cache
+C:\Users\ian\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\Parser\Parser\Parser\obj\Debug\net5.0\Parser.dll
+C:\Users\ian\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\Parser\Parser\Parser\obj\Debug\net5.0\ref\Parser.dll
+C:\Users\ian\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\Parser\Parser\Parser\obj\Debug\net5.0\Parser.pdb
+C:\Users\Micha\Downloads\Parser\Parser\bin\Debug\net5.0\Parser.deps.json
+C:\Users\Micha\Downloads\Parser\Parser\bin\Debug\net5.0\Parser.dll
+C:\Users\Micha\Downloads\Parser\Parser\bin\Debug\net5.0\Parser.pdb
+C:\Users\Micha\Downloads\Parser\Parser\obj\Debug\net5.0\Parser.csproj.AssemblyReference.cache
+C:\Users\Micha\Downloads\Parser\Parser\obj\Debug\net5.0\Parser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Micha\Downloads\Parser\Parser\obj\Debug\net5.0\Parser.AssemblyInfoInputs.cache
+C:\Users\Micha\Downloads\Parser\Parser\obj\Debug\net5.0\Parser.AssemblyInfo.cs
+C:\Users\Micha\Downloads\Parser\Parser\obj\Debug\net5.0\Parser.csproj.CoreCompileInputs.cache
+C:\Users\Micha\Downloads\Parser\Parser\obj\Debug\net5.0\Parser.dll
+C:\Users\Micha\Downloads\Parser\Parser\obj\Debug\net5.0\refint\Parser.dll
+C:\Users\Micha\Downloads\Parser\Parser\obj\Debug\net5.0\Parser.pdb
+C:\Users\Micha\Downloads\Parser\Parser\obj\Debug\net5.0\ref\Parser.dll
