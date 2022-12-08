@@ -1,3 +1,0 @@
-So this project has alot of files required to run and github was being fussy about amount of items and file sizes so currently in Library "Artifacts" and everything inside "PackageCache" are zipfiles that need to be unzipped in order to run the scene file to play with the SATToy.
-
-Alternatively you could also just not worry about it and unity should apparently redownload everything thats zipped anwyway when you try to run the program.
